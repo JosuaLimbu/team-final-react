@@ -3,7 +3,7 @@ import React from 'react'
 function Blog() {
   return (
     <div className="container-fluid p-5">
-    <div className="mb-5 text-center">
+    <div className="mb-5 text-center" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
       <h5 className="text-primary text-uppercase">Our Blog</h5>
       <h1 className="display-3 text-uppercase mb-0">Latest Blog Post</h1>
     </div>

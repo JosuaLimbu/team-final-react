@@ -4,12 +4,12 @@ function Trains() {
   return (
     <div>
         <div className="container-fluid p-5">
-    <div className="mb-5 text-center">
+    <div className="mb-5 text-center" data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
       <h5 className="text-primary text-uppercase">Class Schedule</h5>
       <h1 className="display-3 text-uppercase mb-0">Working Hours</h1>
     </div>
     <div className="tab-class text-center">
-      <ul className="nav nav-pills d-inline-flex justify-content-center bg-dark text-uppercase rounded-pill mb-5">
+      <ul className="nav nav-pills d-inline-flex justify-content-center bg-dark text-uppercase rounded-pill mb-5" data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0" data-aos-duration="1000">
         <li className="nav-item">
           <a className="nav-link rounded-pill text-white active" data-bs-toggle="pill" href="#tab-1">Monday</a>
         </li>
@@ -33,7 +33,7 @@ function Trains() {
         </li>
       </ul>
       <div className="tab-content">
-        <div id="tab-1" className="tab-pane fade show p-0 active">
+        <div id="tab-1" className="tab-pane fade show p-0 active" data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-delay="800" data-aos-offset="0" data-aos-duration="1000">
           <div className="row g-5">
             <div className="col-lg-3 col-md-4 col-sm-6">
               <div className="bg-dark rounded text-center py-5 px-3">
@@ -456,8 +456,8 @@ function Trains() {
       </div>
     </div>
   </div>
-  <div className="container-fluid bg-dark facts p-5 my-5">
-    <div className="row gx-5 gy-4 py-5">
+  <div className="container-fluid bg-dark facts p-5 my-5" data-aos-easing="ease-in-back" data-aos-delay="1100" data-aos-offset="0" data-aos-duration="1000">
+    <div className="row gx-5 gy-4 py-5" >
       <div className="col-lg-3 col-md-6">
         <div className="d-flex">
           <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style={{width: 60, height: 60}}>
@@ -504,12 +504,12 @@ function Trains() {
       </div>
     </div>
   </div>
-  <div className="container-fluid p-5">
-    <div className="mb-5 text-center">
+  <div className="container-fluid p-5" >
+    <div className="mb-5 text-center" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
       <h5 className="text-primary text-uppercase">The Team</h5>
       <h1 className="display-3 text-uppercase mb-0">Expert Trainers</h1>
     </div>
-    <div className="row g-5">
+    <div className="row g-5" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0" data-aos-duration="1000">
       <div className="col-lg-4 col-md-6">
         <div className="team-item position-relative">
           <div className="position-relative overflow-hidden rounded">
@@ -528,7 +528,7 @@ function Trains() {
           </div>
         </div>
       </div>
-      <div className="col-lg-4 col-md-6">
+      <div className="col-lg-4 col-md-6" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0" data-aos-duration="1000" >
         <div className="team-item position-relative">
           <div className="position-relative overflow-hidden rounded">
             <img className="img-fluid w-100" src="img/team-2.jpg" alt />
@@ -546,8 +546,8 @@ function Trains() {
           </div>
         </div>
       </div>
-      <div className="col-lg-4 col-md-6">
-        <div className="team-item position-relative">
+      <div className="col-lg-4 col-md-6" >
+        <div className="team-item position-relative"data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0" data-aos-duration="1000">
           <div className="position-relative overflow-hidden rounded">
             <img className="img-fluid w-100" src="img/team-3.jpg" alt />
             <div className="team-overlay">
@@ -567,7 +567,7 @@ function Trains() {
     </div>
   </div>
   <div className="container-fluid p-0 my-5">
-    <div className="row g-0">
+    <div className="row g-0" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="3000">
       <div className="col-lg-6" style={{minHeight: 500}}>
         <div className="position-relative h-100">
           <img className="position-absolute w-100 h-100" src="img/testimonial.jpg" style={{objectFit: 'cover'}} />

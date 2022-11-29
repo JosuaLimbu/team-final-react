@@ -1,16 +1,17 @@
 import React from 'react'
 
+
 function Navbar() {
   return (
     <>
-    <div className="container-fluid bg-dark px-0">
+    <div className="container-fluid bg-dark px-0" >
     <div className="row gx-0">
       <div className="col-lg-3 bg-dark d-none d-lg-block">
         <a href="index.html" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-          <h1 className="m-0 display-4 text-primary text-uppercase">GYMSTER</h1>
+          <h1 className="m-0 display-4 text-primary text-uppercase" data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">GYMSTER</h1>
         </a>
       </div>
-      <div className="col-lg-9">
+      <div className="col-lg-9" data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
         <div className="row gx-0 bg-secondary d-none d-lg-flex">
           <div className="col-lg-7 px-5 text-start">
             <div className="h-100 d-inline-flex align-items-center py-2 me-4">
@@ -51,7 +52,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div className="navbar-nav mr-auto py-0">
-              <a href="index.html" className="nav-item nav-link active">Home</a>
+              <a href="index.html" className="nav-item nav-link ">Home</a>
               <a href="about.html" className="nav-item nav-link">About</a>
               <a href="class.html" className="nav-item nav-link">Classes</a>
               <a href="team.html" className="nav-item nav-link">Trainers</a>

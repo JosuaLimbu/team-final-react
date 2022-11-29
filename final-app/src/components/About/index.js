@@ -9,7 +9,10 @@ function About() {
           <img className="position-absolute w-100 h-100 rounded" src="img/about.jpg" style={{objectFit: 'cover'}} />
         </div>
       </div>
-      <div className="col-lg-7">
+      <div className="col-lg-7" data-aos="fade-down" data-aos-easing="ease-in-back"
+          data-aos-delay="4000"
+          data-aos-offset="0"
+          data-aos-duration="1000">
         <div className="mb-4">
           <h5 className="text-primary text-uppercase">About Us</h5>
           <h1 className="display-3 text-uppercase mb-0">Welcome to Gymster</h1>
