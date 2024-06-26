@@ -15,7 +15,7 @@ function About() {
           data-aos-duration="1000">
         <div className="mb-4">
           <h5 className="text-primary text-uppercase">About Us</h5>
-          <h1 className="display-3 text-uppercase mb-0">Welcome to Gymsters</h1>
+          <h1 className="display-3 text-uppercase mb-0">Welcome to Gymster</h1>
         </div>
         <h4 className="text-body mb-4">Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no labore lorem sit clita duo justo magna dolore</h4>
         <p className="mb-4">Nonumy erat diam duo labore clita. Sit magna ipsum dolor sed ea duo at ut. Tempor sit lorem sit magna ipsum duo. Sit eos dolor ut sea rebum, diam sea rebum lorem kasd ut ipsum dolor est ipsum. Et stet amet justo amet clita erat, ipsum sed at ipsum eirmod labore lorem.</p>
